@@ -1,0 +1,132 @@
+/*ESTILOS GERAIS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    height: 100vh;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+
+}
+.Interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+    padding: 20px 4%;
+}
+header  > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+}
+header  > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*FIM DE ESTILOS GERAIS*/
+
+/* ESTILOS DO CABEÇARIO*/
+header{
+    background-color: rgb(237, 243, 209);
+}
+header a{
+    color: #050505;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    transition: .2s;
+    font-weight: 600;
+}
+header i{
+    font-size: 50px;
+}
+header a:hover{
+    transform: scale(1.10);
+}
+header nav ul{
+    list-style-type: none;
+}
+.Icoone h1{
+    color: #e8e8e8;
+    font-size: 25px;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 70px;
+}
+.btn-Login button{
+    padding: 10px 40px;
+    color: rgb(21, 21, 21);
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn-Login button:hover{
+    background-color: #0f0f0f;
+    color: #fdfeff;
+    transform: scale(1.05); 
+}
+/* FIM DOS ESTILOS DO CABEÇARIO*/
+
+.Img-Especialidades {
+    display: flex;
+    height: 70%;
+    background: url(Imagens/Especialidades.jpeg) no-repeat;
+    background-size:cover;
+    filter: brightness(40%);
+    align-items: center;
+  }
+.Texto-Sobre{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 7%;
+}
+.Texto-Sobre h1{
+    font-size: 40px;
+}
+.Texto-Sobre p{
+    font-size: 25px;
+    color: rgba(0, 149, 255, 0.96);
+    font-weight: 800;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.Texto-Sobre button{
+    padding: 10px 40px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: rgb(0, 123, 245);
+    border: 2px solid rgb(0, 123, 245);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+.Texto-Sobre button:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid rgb(251, 254, 255);
+    transform: scale(1.05); 
+}
+.btn-contato {
+    margin-top: 80px;
+    margin-left: 34%;
+}

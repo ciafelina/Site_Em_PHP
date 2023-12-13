@@ -1,0 +1,17 @@
+{
+    "name": "ferna/site-grande",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jose Thiago",
+            "email": "marquesjosethiago@gmail.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.15"
+    }
+}

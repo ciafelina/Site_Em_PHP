@@ -1,0 +1,273 @@
+/*ESTILOS GERAIS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    height: 100vh;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    background: #fff;
+}
+.Interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+    padding: 20px 4%;
+}
+header  > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+}
+header  > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+}
+/*FIM DE ESTILOS GERAIS*/
+
+/* ESTILOS DO CABEÇARIO*/
+header h1{
+    display: none;
+}
+header a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    transition: .2s;
+    font-weight: 600;
+}
+header i{
+    color: black;
+    font-size: 50px;
+}
+header a:hover{
+    transform: scale(1.10);
+}
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 70px;
+}
+.btn-Login button{
+    padding: 10px 40px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+    margin-right: 100px;
+}
+.btn-Login button:hover{
+    background-color: #000000;
+    color: #fcfdfd;
+    transform: scale(1.05); 
+}
+/* FIM DOS ESTILOS DO CABEÇARIO*/
+
+/* ESTILOS DO FORMULARIO*/
+
+.Conteiner{
+    margin-left: 10%;
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.form-imagem{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.form-imagem img{
+    width: 35rem;
+}
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+.Fomr-Header{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.Fomr-Header h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: rgb(0, 153, 255);
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+.input-box input{
+    margin: 0.6rem 0;
+    width: 500px;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+.input-box input:hover{
+    background-color: #eeeeee75;
+}
+.input-box input:focus-visible{
+    outline: 1px solid rgb(0, 153, 255) ;
+}
+.input-box label{
+    margin-bottom: 10px;
+    font-size: 0.75rem;
+    font-size: 600;
+    color: #000000c0;
+}
+.input-box input::placeholder{
+    color: #4e4b4bbe;
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+}
+.continue-buton button{
+    width: 90%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: rgb(0, 153, 255);
+    padding: 0.62rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .4s;
+}
+.continue-buton button:hover{
+    transform: scale(1.05);
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.continue-buton button{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffff;
+}
+
+
+.input-box-s1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+.input-box-s1 input{
+    margin: 0.6rem 0;
+    width: 200px;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+.input-box-s1 input:hover{
+    background-color: #eeeeee75;
+}
+.input-box-s1 input:focus-visible{
+    outline: 1px solid rgb(0, 153, 255);
+}
+.input-box-s1 label{
+    margin-bottom: 10px;
+    font-size: 0.75rem;
+    font-size: 600;
+    color: #000000c0;
+}
+.input-box-s1 input::placeholder{
+    color: #4e4b4bbe;
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+}
+.btn-Login-Form a{
+    padding: 0 60px ;  
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+.btn-Login-Form i{
+    color: rgb(2, 236, 14);
+    margin-right: 5px;
+    font-size: 20px;
+}
+.span-require{
+    font-size: 13px;
+    color: red;
+    display: none;
+}
+#span-requireId{
+    font-size: 13px;
+    color: red;
+    display: none;
+}
+
+.Erro-Cadastro{
+    color: red;
+}
+/* FIM DOS ESTILOS DO FORMULARIO*/
+
+@media screen and (max-width : 1330px) {
+    .form-imagem{
+        display: none;
+    }
+    .Conteiner{
+        width: 50%;
+    }
+    .form{
+        width: 100%;
+    }
+}
+@media screen and (max-width : 1064px){
+    .Conteiner{
+        width: 90%;
+        height: auto;
+    }
+    .input-group{
+        flex-direction: column;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+        padding-right: 5rem;
+    }
+
+} 

@@ -1,0 +1,212 @@
+/*ESTILOS GERAIS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    height: 100vh;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    background-color: black;
+}
+.Interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+    padding: 20px 4%;
+}
+header  > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+}
+header  > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*FIM DE ESTILOS GERAIS*/
+
+/* ESTILOS DO CABEÇARIO*/
+header a{
+    color: #d6d6d6;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    transition: .2s;
+    font-weight: 600;
+}
+header a:hover{
+    transform: scale(1.10);
+}
+header nav ul{
+    list-style-type: none;
+}
+.Icoone h1{
+    color: #e8e8e8;
+    font-size: 25px;
+}
+.Icoone i{
+    color: white;
+    margin-right: 20px;
+    font-size: 40px;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 70px;
+}
+.btn-Login button{
+    padding: 10px 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid rgb(232, 232, 232);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn-Login button:hover{
+    background-color: #fff;
+    color: #162938;
+    transform: scale(1.05); 
+}
+/* FIM DOS ESTILOS DO CABEÇARIO*/
+
+section.Vendas{
+    padding: 40px 4%;
+}
+section.Vendas .flex{
+    gap: 60px;
+}
+.Vendas{
+    background-color: black;
+}
+.Vendas .Compra1{
+    background-color: rgb(48, 118, 230);
+    color: #fff;
+    padding: 20px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .3s;
+
+}
+.Vendas .Compra1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px #fff;
+    color: #000000;
+    transform: scale(1.05);   
+}
+.Vendas .Compra1 i{
+    font-size: 90px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+.Vendas .Compra1 h2{
+    font-size: 28px;
+    margin: 15px 0;
+    margin-bottom: 70px;
+}
+.Vendas .Compra1 p{
+    font-size: 20px;
+}
+.btn-botao button{
+    padding: 10px 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid rgb(232, 232, 232);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+.btn-botao button:hover{
+    background-color: #fff;
+    color: #162938;
+    transform: scale(1.05); 
+}
+
+
+/*ESTILOS DO Fim-Da-Pagina*/
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+    background-color: black;
+}
+footer .flex{
+    justify-content: space-between;
+}
+.btn-social {
+    padding: 0 20px;
+}
+.btn-social a i{
+    font-size: 40px;
+    padding: 0 40px;
+    cursor: pointer;
+}
+.line-Footer{
+    padding: 20px 0;
+    
+}
+.borda{
+    border-bottom: 2px solid #00FF08;
+}
+
+footer .line-Footer p i{
+    color: #00FF08;
+    font-size: 30px;
+}
+footer .line-Footer p a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/* FIM DOS ESTILOS DO Fim-Da-Pagina*/
+
+@media screen and (max-width:1020px) {
+    .flex{
+        flex-direction: column-reverse;
+    }
+    header .meu-descktop{
+        display: none;
+    }
+    header .Icoone h1{
+        font-size: 22px;
+    }
+    header .btn-Login button{
+        font-size: 15px;
+        margin-right: 7px;
+        margin-top: 15px;
+        font-weight: 1000;
+    }
+    main .Compra1{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    main .Compra1 .btn-botao button{
+        margin-left: 50%px;
+    }
+    footer .line-Footer p a{
+        font-size: 20px;  
+      }
+    .btn-social a i{
+        font-size: 30px;
+        padding: 0 30px;
+    }
+}

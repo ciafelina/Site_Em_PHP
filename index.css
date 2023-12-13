@@ -1,0 +1,290 @@
+/*ESTILOS GERAIS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    height: 100vh;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+}
+.Interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+    padding: 20px 4%;
+}
+header  > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+}
+header  > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Principal{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(Imagens/Fundo.png) no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.ImagemFundo2{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(Imagens/2106.w026.n002.480B.p1.480.jpg) no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-color: transparent;
+}
+
+
+/*FIM DE ESTILOS GERAIS*/
+
+/* ESTILOS DO CABEÇARIO*/
+header a{
+    color: #d6d6d6;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    transition: .2s;
+    font-weight: 600;
+}
+header a:hover{
+    transform: scale(1.10);
+}
+header nav ul{
+    list-style-type: none;
+}
+.Icoone h1{
+    color: #e8e8e8;
+    font-size: 25px;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 70px;
+}
+.btn-Login button{
+    padding: 10px 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid rgb(232, 232, 232);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn-Login button:hover{
+    background-color: #fff;
+    color: #162938;
+    transform: scale(1.05); 
+}
+.img-login:Hover{
+    transform: scale(1.06);
+}
+.Sair-btn button:hover{
+    transform: scale(1.05) 
+}
+
+/* FIM DOS ESTILOS DO CABEÇARIO*/
+
+/* ESTILOS DO Helcome*/
+.Helcome h1{
+    color: white;
+    margin-top: 300px;
+    text-align: center;
+}
+.helcome{
+    position: absolute;
+    top: 240px;
+    left: 50px;
+    padding: 10px 40px;
+}
+.helcome h1{
+    color: white;
+}
+.helcome .Botao button{
+    padding: 10px 40px;
+    margin-top: 70px;
+    margin-left: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-weight: 600;
+    background-color: rgb(16, 2, 96);
+    border: 2px solid rgb(16, 2, 96);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+.helcome .Botao button:hover{
+    background-color: #000000;
+    color: #f4f8fa;
+    transform: scale(1.05); 
+    border: 2px solid rgb(240, 240, 240)
+}
+/* FIM DOS ESTILOS DO Helcome*/
+
+/* ESTILOS DO Parte-Principal*/
+section.Especialidades{
+    padding: 40px 4%;
+}
+section.Especialidades .flex{
+    gap: 60px;
+}
+.titulo{
+    color: white;
+    margin-left: 37%;
+    font-size: 40px;
+}
+.Especialidades{
+    background-color: black;
+}
+.Especialidades .Especialidades-box{
+    color: #fff;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .3s;
+}
+.Especialidades .Especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #fff;
+}
+.Especialidades .Especialidades-box i{
+    font-size: 90px;
+    margin-left: 60px;
+    color: #00FF08;
+}
+.Especialidades .Especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+/* FIM DOS ESTILOS DO Parte-Principal*/
+
+/* ESTILOS DO ImagemFundo2*/
+.Texto h2{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding: 80px 1%;
+    margin-right: 90px;
+    margin-top: 100px;
+}
+.Texto p{
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* FIM DOS ESTILOS DO ImagemFundo2*/
+
+/*ESTILOS DO Fim-Da-Pagina*/
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+    background-color: black;
+}
+footer .flex{
+    justify-content: space-between;
+}
+.btn-social {
+    padding: 0 20px;
+}
+.btn-social a i{
+    font-size: 40px;
+    padding: 0 40px;
+    cursor: pointer;
+}
+.line-Footer{
+    padding: 20px 0;
+    
+}
+.borda{
+    border-bottom: 2px solid #00FF08;
+}
+
+footer .line-Footer p i{
+    color: #00FF08;
+    font-size: 30px;
+}
+footer .line-Footer p a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/* FIM DOS ESTILOS DO Fim-Da-Pagina*/
+
+
+@media screen and (max-width:1020px) {
+    .meu-descktop,.btn-contato{
+        display: none;
+    }
+    .flex{
+        flex-direction: column-reverse;
+    }
+    .Icoone h1{
+        font-size: 21px;
+        margin-right: 25px;
+    }
+    .helcome{
+        margin: 0;
+        padding: 0;
+    }
+    .helcome h1{
+        font-size: 30px;
+        margin: 0;
+        margin-right: 30px;
+    }
+    .helcome .Botao{
+        margin-right: 80px;
+        margin-top: 0px;
+        
+    }
+    .helcome .Botao button{
+        font-size: 30px;
+        padding: 10px 4%;
+        margin-left: 0;
+    }
+    .Especialidades .titulo{
+        font-size: 30px;
+        margin-left: 40px;
+    }
+    .Texto h2{
+        font-size: 30px;
+        margin-left: 90px;
+        justify-content: center;
+        margin: 0 20px;
+    }
+    .Texto p{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .btn-social{
+        display: flex;
+    }
+    .btn-social a i{
+        font-size: 38px;
+        padding: 0 30px;
+    }
+    footer .line-Footer p a{
+      font-size: 20px;  
+    }
+}   
+
